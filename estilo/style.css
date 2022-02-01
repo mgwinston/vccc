@@ -1,0 +1,110 @@
+@charset "UTF-8";
+
+
+:root {
+    --cor0: #0d5506;
+    --cor1: #2EC9DB;
+    --cor2: #3FB1F2;
+    --cor3: #1956c0;
+    --cor4: #ffe4c4;
+    --fonte-padrao: arial, verdana, Helvetica;
+
+}
+*{
+    margin: 0px;
+    padding: 7px;
+    
+    
+}
+/**/
+
+body{ /* corpo do site */ 
+    border: 1px;  /*esta e a borda do eu st*/ 
+    padding: 20px;  /* esta e a reponsividade da pagina */ 
+    min-width: 500px;
+    max-width: 1366px;
+   background-color: rgb(127, 208, 204);
+
+
+}
+    body> header{
+        min-width: 500px;   /* repuncividade do site largura minima pra começar a quebrar  */ 
+        max-width: 648px;  /* repuncividade do site largura maxima pra começar a quebrar  */ 
+        margin: auto;
+        background-color: rgb(34, 145, 12);
+        box-shadow: 0px 0px 10px; /*deixar as bordas pretas*/
+        padding-top: 40px; /* magem no topo do titulo */
+    }
+        body header{
+        min-height: 50px;
+       /* text-align: center;*/
+    }
+    header a{
+        color: black;
+        padding: 10px;/*destanciamento das letras, tem que saber o lugar correto pra adicionar as letras */
+
+    }
+    header a:hover{/* deixar o menu com selecionando, da pra colocar varios style*/
+        background-color: rgb(206, 206, 147);
+        color: white;
+        transition-duration: 0.5s;font-size: calc(1+2);
+    }
+    /*header button{
+        background-color: white;
+        grid-template-columns: 1px;
+        margin-right: 2px;
+    }*/
+
+    h1{ 
+     text-align: center;  /* centraizar o texto da st */ 
+     color: #353424; 
+}
+body nav{background-color: white;
+    min-width: 500px;
+    max-width: 648px;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.487);}
+
+    h2{
+    text-align: center;  /*alinhar o texto do "st" */ 
+    color: #353424;
+    }
+nav> p{
+    text-align: center;
+}
+
+
+main{
+    background-color: white;
+    margin: 0px;
+    min-width: 500px;
+    max-width: 648px;
+    margin: auto;
+    box-shadow: 0px 0px 10px;}
+main> h2{
+        text-align: center; /* alinhar melhor as letras do texto  */ 
+        min-width: 500px;
+        max-width: 648px;
+        margin: 0px;
+        border-radius: 4px;
+        background-color: rgb(34, 145, 12);
+        box-shadow: 0px 0px 10px;
+}    
+main> p{
+    text-align: center;
+}
+main img {
+    width: 100%;
+    margin: auto;
+
+}
+
+    
+
+footer{
+    background-color: rgba(53, 51, 51, 0.782);
+    color: blanchedalmond;
+    text-align: center;
+}
+   
+
